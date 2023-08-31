@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grids and Modal</title>
+    <!-- Bootstrap CDN- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <!-- Bootstrap CDN- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+     <!-- Bootstrap Icon CDN -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+    <!-- Grids -->
+    <h1>Grids Example</h1>
+    <div class="row" >
+        <div class="col-12 border border-danger">
+            Size 12
+        </div>
+    </div>
+
+    <div class="row" >
+        <div class="col-6 border border-danger">
+            size 6
+        </div><div class="col-6 border border-danger">
+            size 6
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-4 border border-danger">
+            Size 4
+        </div>
+        <div class="col-4 border border-danger">
+            Size 4
+        </div>
+        <div class="col-4 border border-danger">
+            Size 4
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-3 border border-success">
+            Size 3
+        </div>
+        <div class="col-3 border border-success">
+            Size 3
+        </div>
+        <div class="col-3 border border-success">
+            Size 3
+        </div>
+        <div class="col-3 border border-success">
+            Size 3
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-1 border border-success">
+            Size 01
+        </div>
+        <div class="col-1 border border-success">
+            Size 01
+        </div>
+        <div class="col-1 border border-success">
+            Size 01
+        </div>
+        <div class="col-1 border border-success">
+            Size 01
+        </div>
+        <div class="col-1 border border-success">
+            Size 01
+        </div>
+        <div class="col-1 border border-success">
+            Size 01
+        </div>
+        <div class="col-1 border border-success">
+            Size 01
+        </div>
+        <div class="col-1 border border-success">
+            Size 01
+        </div>
+        <div class="col-1 border border-success">
+            Size 01
+        </div>
+        <div class="col-1 border border-success">
+            Size 01
+        </div>
+        <div class="col-1 border border-success">
+            Size 01
+        </div>
+        <div class="col-1 border border-success">
+            Size 01
+        </div>
+    </div>
+    <hr>
+
+    <h1>Modal</h1>
+
+    <!-- Modal -->
+
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#eg_modal">
+    Launch 
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="eg_modal" >
+    
+    <!-- dialogBox -->
+    <div class="modal-dialog">
+     
+        <!-- content -->
+      <div class="modal-content">
+
+        <!-- header -->
+        <div class="modal-header">
+          <h5>Choose your Location</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            Select a delivery location to see product availability and delivery options...
+          
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">OK</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Colors -->
+
+  <h4>Colors Example</h4>
+
+  <div class="bg-primary" style="width: 150px; height: 50px;">Primary- Blue</div>
+  <div class="bg-success" style="width: 150px; height: 50px;">Success- Green</div>
+  <div class="bg-danger" style="width: 150px; height: 50px;">Danger- Red</div>
+  <div class="bg-warning" style="width: 150px; height: 50px;">Warning- Yellow</div>
+  <div class="bg-info" style="width: 150px; height: 50px;">info- light blue</div>
+  <div class="bg-dark text-light" style="width: 150px; height: 50px;">dark- Black <br> White-light </div>
+    
+  <!-- Images -->
+  <h4>Images Example</h4>
+
+   <!-- Responsive Image -->
+  <img src="./coffee.jpg" class="img-fluid">
+
+  <!-- Thubmbail -->
+  <img src="./flower-g912d3ac26_1280.jpg" class="img-thumbnail">
+
+  <!-- Curved Corner -->
+  <img src="./Edureka_logo.png" class="rounded w-50">
+
+  <!-- Circled Corners -->
+  <img src="./Edureka_logo.png  " class=" rounded-circle w-50">
+
+  <hr>
+
+
+  <!-- Icons -->
+  <h4>Icons Example</h4>
+
+  <i class="bi bi-capsule" style="font-size: 150px; color: blue;"></i>
+
+  <i class="bi bi-bell-slash fs-1 text-primary"></i>
+
+  
+   
+
+    
+</body>
+</html>

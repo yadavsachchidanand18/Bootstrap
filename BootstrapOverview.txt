@@ -1,0 +1,28 @@
+Bootstrap v5.3 - Latest Version (15/07/2023)
+
+    - It is a free font-end framework.
+    - It is a framework of CSS.
+    - It includes HTML, CSS, JS based responsive desighn templates.
+
+    How to connect with Bootstrap?
+        - CDN (Content Delivery Network) Links (jsDelivr).
+            - It can be easily updated through online links (CDN).
+            - It makes your project light.
+            - Always need to be connected through Internet.
+
+        - Download the files.
+            - It restricts the version control.
+            - It makes your project bulky.
+            - No seperate Network is required.
+
+        - Package Manager
+
+    => No attributes of CSS & bootstrap should be defined same.
+
+    - Carousel
+
+    - Grids
+
+    - Modals
+
+    - Colors
